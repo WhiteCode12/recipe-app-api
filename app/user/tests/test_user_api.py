@@ -71,7 +71,7 @@ class PublicApiTests(TestCase):
         """Test generate token for valid credentials"""
         user_details = {
             'name': 'Test Name',
-            'email': 'test@wxample.com',
+            'email': 'test@example.com',
             'password': 'test-user-password123',
         }
         create_user(**user_details)
